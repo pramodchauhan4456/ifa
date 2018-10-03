@@ -1,0 +1,815 @@
+    /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (max-width: 768px) {
+      
+      /*menu css start*/
+      .ifa_brand{
+        height: 100%;
+        padding: 5px 0px;
+        img{
+          width: 80%;
+        }
+      }
+      .ifanavbar-collapse ul {
+          margin: 0;
+      }
+        nav.navbar.ifaNavbar {
+          margin-bottom: 0px !important;
+      }
+      .ifa-header .navbar-toggle .icon-bar{
+        background: #1c70b2;
+      }
+      .ifa-header button{
+        margin-right: 0px;
+        margin-left: 0px;
+      }
+
+      .profileLogo{
+        position: absolute;
+        top: 0;
+        left: -35px;
+       
+        img{
+          width: 70%;
+        }
+      }
+      .ifanavbar-collapse ul li a {
+        font-size: 16px !important;
+        padding: 5px 10px !important;
+    }
+
+    /*menu css end*/
+
+
+    /*top slider css start*/
+    .liveTracker {
+      padding-bottom: 20px;
+  }
+  .liveTrackerInside .lSSlideWrapper{
+    overflow: initial;
+    max-width: 90%;
+  }
+  
+    .liveTrackerInside .lSSlideOuter .lSPager.lSpg > li a{
+      height: 12px;
+      width: 12px;
+      border: 1px solid #337ab7;
+      background-color: transparent;
+      border-radius: 50%;
+    }
+    .liveTrackerInside .lSSlideOuter .lSPager.lSpg > li:hover a, .liveTrackerInside .lSSlideOuter .lSPager.lSpg > li.active a {
+      background-color: #ea5b0f;
+      border: 1px solid #ea5b0f;
+  }
+
+  /*top slider css end*/
+
+  /*partner strip css start*/
+  .secondStrip {
+    padding: 20px 0px 5px 0px !important;
+}
+  .secondStrip .secondInside .secondDesc {
+      margin-bottom: 20px;
+      text-align: center;
+      img{
+        display: block;
+        margin: 0 auto;
+      }
+  }
+  .secondStrip .secondInside .secondDesc p {
+    font-size: 14px !important;
+ }
+  .spaceHeight {
+    height: 50px !important;
+  }
+  /*partner strip css end*/
+
+  /*mobile Title css start*/
+  .mobileTitle{
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 2px;
+    background: #000000;
+    .titleTxt{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h4{
+        color: #000000;
+        font-size: 22px;
+        font-family: Roboto-Regular;
+        background-color: #fff;
+        margin-top: -12px;
+        padding: 0px 10px;
+      }
+    }
+  }
+
+/*mobile Title css end*/
+
+/*our Market css start*/
+  .ourMarketInside .ourmarketleftDesc .videoPlay .playIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ourMarketInside .ourmarketleftDesc .ourmarketleftContent h4 {
+    font-size: 20px !important;
+}
+.ourMarketInside .ourmarketleftDesc .ourmarketleftContent p {
+  font-size: 16px !important;
+}
+.ourMarketInside .ourMarketRight {
+  padding-left: 0px !important;
+  margin-top: 20px !important;
+}
+.ourMarketInside {
+  padding: 40px 10px 0px 10px !important;
+}
+.ourMarketInside .ourmarketleftDesc {
+  padding-right: 0px !important;
+}
+.ourMarketInside .ourMarketRight .overlayImg .overlayDiv {
+  padding: 10px 10px !important;
+}
+.ourMarketInside .ourMarketRight .overlayImg .overlayDiv h4 {
+  font-size: 16px !important;
+}
+.ourMarketInside .ourMarketRight .overlayImg .overlayDiv .ourDividerRight {
+  margin: 5px 0px !important;
+}
+.ourMarketInside .ourMarketRight .overlayImg .overlayDiv .overlayContent p {
+  opacity: 0.7 !important;
+  font-size: 14px !important;
+  line-height: 16px;
+}
+.ourMarketInside .ourMarketRight .overlayImg .overlayDiv .readMore a {
+  padding: 5px 5px !important;
+  font-size: 14px !important;
+}
+/*our Market css end*/
+
+/*strategyOutlook css start*/
+.strategyOutlookSection {
+  background-image: inherit !important;
+  min-height: auto !important;
+}
+.strategyOutlookSection .strategyOutlook .outlookTabs {
+  min-height: auto !important;
+}
+.strategyOutlookSection .strategyOutlook .TabBody {
+  width: 100% !important;
+  text-align: center !important;
+  padding: 100px 15px 0px 15px;
+}
+.strategyOutlookSection .strategyOutlook .TabBody p {
+  font-size: 16px !important;
+}
+.strategyOutlookSection .strategyOutlook .bottomTabs {
+  bottom: inherit !important;
+  top: 40px !important;
+  overflow-x: hidden;
+  overflow: scroll;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  right: 10px !important;
+}
+.strategyOutlookSection .strategyOutlook .bottomTabs .nav-pills-outlook li a {
+  padding: 10px 5px !important;
+  font-size: 16px !important;
+  width: 150px !important;
+  text-align: center !important;
+}
+.strategyOutlookSection .strategyOutlook .bottomTabs .nav-pills-outlook {
+  display: inline-flex !important;
+  border-bottom: inherit !important;
+  overflow: scroll;
+  direction: ltr;
+}
+.mobilePaddingNone{
+    padding: 0% 0% !important;
+}
+.strategyOutlookSection .strategyOutlook {
+  padding: 0px 0px 0px 0px !important;
+}
+.nav-pills-outlook > li.active > a, .nav-pills-outlook > li.active > a:hover, .nav-pills-outlook > li.active > a:focus {
+  margin-top: 0px !important;
+}
+.CircleR {
+  right: 2px !important;
+  width: 14px!important;
+  height: 14px !important;
+  font-size: 10px !important;
+}
+/*strategyOutlook css end*/
+
+/*why us css start*/
+.whyusMain {
+  background-image: inherit !important;
+  min-height: auto !important;
+}
+.whyusMain .whyusInside .transparencyImg {
+  width: 55% !important;
+  margin: 0 auto;
+  float: inherit !important;
+}
+.mobileTransparency{
+font-size: 20px;
+color: #000;
+font-family: Roboto-Regular;
+text-align: center;
+margin: 30px 0px;
+}
+.whyusMain .whyusInside {
+  padding: 0px 10px 0px 10px !important;
+}
+.whyusMain .whyusInside .transparencyContent {
+  width: 100% !important;
+  text-align: center;
+  padding-top: 20px;
+}
+.whyusMain .whyusInside .transparencyContent p {
+  font-size: 16px !important;
+}
+.whyusMain .whyusInside .transparencyGlobal {
+  position: relative !important;
+  width: 100% !important;
+  float: left !important;
+  padding-top: 20px;
+}
+.whyusMain .whyusInside .transparencyGlobal ul li {
+  padding-right: 0px !important;
+  width: 100%;
+  float: left;
+}
+.whyusMain .whyusInside .transparencyGlobal ul li a {
+  font-size: 16px !important;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/*why us css end*/
+
+/*Analytical Tools css start*/
+.analyticalTool-pills{
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  overflow: scroll;
+  width: 97%;
+  float: left;
+  border-bottom: inherit !important;
+  position: absolute;
+  top: 40px;
+  left: 10px !important;
+}
+
+.analyticalTool-pills li a {
+  width: 150px !important;
+  font-size: 16px !important;
+}
+
+.analyticalTool-pills li {
+  width: inherit !important;
+}
+.analyticalTool0{
+  padding: 0% 0% !important;
+}
+.analyticalTool-pills > li.active > a, .analyticalTool-pills > li.active > a:hover, .analyticalTool-pills > li.active > a:focus {
+  margin-top: 0px !important;
+}
+.tab-content.tab-canalyticalTool.clearfix {
+  margin-top: 110px;
+  padding: 0px 5%;
+}
+.analyticalUsd {
+  padding: 0px 0px !important;
+}
+.analyticalUsd .UsdInside p {
+  font-size: 24px !important;
+}
+.analyticalUsd .UsdInside p span {
+  font-size: 20px !important;
+}
+.analyticalUsd .UsdInside .usdForm {
+  width: 100% !important;
+  margin-top: 30px !important;
+}
+.analyticalTool-pills > li.active:after {
+  border-top: 45px solid #fff  !important;
+  border-right: 12px solid transparent !important;
+  right: -12px !important;
+}
+.analyticalUsd .UsdInside .usdForm .amountInput .usd-control {
+  font-size: 15px !important;
+}
+.analyticalUsd .UsdInside .usdForm .DollarSelect .DollarSelect-control {
+  font-size: 15px !important;
+}
+.analyticalUsd .graphChart {
+  padding-left: 0% !important;
+  margin-top: 25px;
+} 
+.analyticalUsd .graphChart .graphCal {
+  width: 65% !important;
+  padding-left: 0px !important;
+}
+.analyticalUsd .graphChart .graphCal ul li {
+  width: 23% !important;
+}
+.analyticalUsd .graphChart .graphCal ul li a {
+  font-size: 16px !important;
+  padding: 5px 5px !important;
+}
+.analyticalUsd .graphChart .fullView {
+  width: 35% !important;
+  p{
+    font-size: 15px !important;
+    a{
+      img{
+        width: 16% !important;
+      }
+    }
+  }
+}
+.analyticalUsd .currencyBottom .graphPrice {
+  padding-left: 0% !important;
+}
+.analyticalUsd .currencyBottom .chartPrice h4 {
+  font-size: 16px !important;
+}
+.analyticalUsd .currencyBottom .chartPrice p {
+  font-size: 14px !important;
+}
+.analyticalUsd .currencyBottom .readAbout {
+  width: 100% !important;
+  padding-top: 20px !important;
+}
+.analyticalUsd .currencyBottom .readAbout p {
+  font-size: 16px !important;
+}
+.analyticalUsd .currencyBottom .readAbout a {
+  font-size: 16px !important;
+}
+/*Analytical Tools css end*/
+    
+
+
+      // .liveTrackerInside .lSSlideOuter{
+      //   overflow: inherit;
+      // }
+      // .liveTrackerInside .lSSlideWrapper{
+      //   overflow: inherit;
+      // }
+        .liveTracker .liveTrackerInside {
+          padding: 0px 10px 0px 10px !important;
+      }
+      .liveTrackerContent img{
+        width: 100%;
+      }
+      .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc h4 {
+            font-size: 20px !important;
+        }
+
+        .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom p {
+            font-size: 18px !important;
+        }
+
+        .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom .lightDesc span {
+            font-size: 20px !important;
+        }
+
+        .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom .lightDesc {
+          font-size: 16px !important;
+      }
+    }
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .ifanavbar-collapse ul li {
+          padding-right: 0% !important;
+      } 
+      .ifanavbar-collapse ul li a {
+            font-size: 17px !important;
+        }
+          .strategyOutlookSection .strategyOutlook .TabBody p {
+            font-size: 18px !important;
+        }
+        .strategyOutlookSection .strategyOutlook .strategyTxt h2 {
+            font-size: 30px;
+        }
+        .analyticalUsd .UsdInside p {
+          font-size: 24px !important;
+      }
+        .analyticalUsd .UsdInside .usdForm {
+          width: 94% !important;
+      }
+      .analyticalUsd .readAbout {
+        width: 94% !important;
+    }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      .usdStripInside .usdPrice p {
+        font-size: 14px !important;
+     }  
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+      .usdStripInside .usdPrice p {
+        font-size: 17px !important;
+     } 
+    .liveTracker .liveTrackerInside .liveTrackerContent {
+        padding: 15px;
+      } 
+        .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom {
+        min-height: 125px !important;
+      }
+      .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom p {
+      font-size: 20px !important;
+      }
+      .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom .lightDesc {
+      font-size: 16px !important;
+      }
+      .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc h4 {
+      font-size: 24px !important;
+      }
+      .strategyOutlookSection .strategyOutlook .bottomTabs .nav-pills-outlook:before {
+        border-bottom: 44px solid #ec6b27 !important;
+    }
+    .strategyOutlookSection .strategyOutlook .bottomTabs .nav-pills-outlook li a {
+          padding: 10px 25px !important;
+          font-size: 16px !important;
+      }
+     
+    }
+    @media only screen and (min-width: 1023px) and (max-width: 1199px) {
+      .secondStrip .secondInside .secondDesc {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+      .secondStrip .secondInside .secondDesc p {
+        font-size: 16px !important;
+    }
+    }
+    
+    @media only screen and (min-width: 1200px) and (max-width: 1366px) {
+      .ifanavbar-collapse ul li {
+        padding-right: 2% !important;
+    }
+    .ifanavbar-collapse ul li a {
+      font-size: 17px !important;
+   }
+   .secondStrip .secondInside .secondDesc p {
+      font-size: 16px !important;
+  }
+  .outTxtMain {
+    background-image: linear-gradient(135deg, #1c70b2 60%, #fff 60%) !important;
+    }
+    .analyticalUsd .UsdInside .usdForm {
+      width: 90% !important;
+    }
+    .analyticalUsd .readAbout {
+      width: 90% !important;
+  }
+  }
+
+    @media only screen and (min-width: 1367px) and (max-width: 1570px) {
+      .ifanavbar-collapse ul li {
+        padding-right: 2% !important;
+    }
+    }
+    @media only screen and (min-width: 1366px) {
+         
+    }
+    /*==========  Non-Mobile First Method  ==========*/
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (max-width: 1366px) {
+        
+    }
+
+    @media only screen and (max-height: 768px) and (max-width: 1199px) {
+      .outTxtMain {
+        background-image: linear-gradient(135deg, #1c70b2 55%, #fff 55%) !important;
+      }
+      .outTxtMain .ourTxt p {
+        font-size: 26px !important;
+    }
+    .analyticalToolStrip .analyticalTxt p {
+      font-size: 24px !important;
+  }
+    }
+    @media only screen and (min-width: 992px) and (max-width: 1250px) {
+      .whyusMain .whyusInside .transparencyGlobal ul li a {
+        font-size: 18px;
+        padding: 5px 20px;
+        border: 2px solid #015fa9;
+        border-radius: 10px;
+        font-family: Roboto-Regular;
+    }
+        .whyusMain {
+          background-image: linear-gradient(135deg, #fff 70%, #015fa9 70%) !important;
+      }
+        .strategyOutlookSection .strategyOutlook .strategyTxt {
+          width: 55% !important;
+      }
+      .strategyOutlookSection .strategyOutlook .strategyTxt h2 {
+        font-size: 30px !important;
+    }
+    .strategyOutlookSection {
+      background-image: linear-gradient(135deg, #015fa9 30%, #fff 30%) !important;
+    }
+        .whyusMain .whyusInside .whyUsTxt {
+          width: 55% !important;
+      }
+      .whyusMain .whyusInside .whyUsTxt h2 {
+        font-size: 30px !important;
+    }
+    
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      .ifanavbar-collapse ul li {
+        padding-right: 2% !important;
+    }
+        .ifanavbar-collapse ul li a {
+          font-size: 14px !important;
+          padding: 10px 0px !important;
+      }
+      .liveTrackerContent img {
+        width: 100%;
+    }
+      .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc h4 {
+          font-size: 19px !important;
+        }
+        .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom .lightDesc {
+          font-size: 16px !important;
+      }
+      .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom p {
+        font-size: 18px !important;
+      }
+      .liveTracker .liveTrackerInside .liveTrackerContent .liveTrackerDisc .DescBottom .lightDesc span {
+        font-size: 18px !important;
+      }
+      .liveTracker .liveTrackerInside .liveTrackerContent {
+        padding: 10px !important;
+    }
+    .secondStrip .secondInside .secondDesc {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+      .secondDesc img {
+        width: 20%;
+    }
+    .secondStrip .secondInside .secondDesc p {
+      font-size: 16px !important;
+    }
+      .ourMarketInside .ourMarketRight .overlayImg .overlayDiv {
+        padding: 5px 5px !important;
+    }
+    .ourMarketInside .ourMarketRight .overlayImg .overlayDiv h4 {
+        font-size: 18px !important;
+    }
+    .ourMarketInside .ourMarketRight .overlayImg .overlayDiv .ourDividerRight {
+      margin: 5px 0px !important;
+    }
+    .ourMarketInside .ourMarketRight .overlayImg .overlayDiv .overlayContent p {
+      font-size: 15px !important;
+      line-height: 20px;
+    }
+    .ourMarketInside .ourMarketRight .overlayImg .overlayDiv .readMore a {
+      padding: 8px 16px !important;
+      font-size: 14px !important;
+    }
+    .ourMarketInside .ourmarketleftDesc .ourmarketleftContent h4 {
+          font-size: 20px  !important;
+      }
+      .ourMarketInside .ourmarketleftDesc .ourmarketleftContent p {
+        font-size: 16px  !important;
+    }
+    .ourMarketInside .ourmarketleftDesc .ourmarketleftContent .dateTxt {
+      font-size: 18px  !important;
+    }
+    .strategyOutlookSection .strategyOutlook .strategyTxt h2 {
+      font-size: 24px !important;
+  }
+      .strategyOutlookSection .strategyOutlook .TabBody p {
+        font-size: 16px !important;
+    }
+    .strategyOutlookSection .strategyOutlook .bottomTabs .nav-pills-outlook li a {
+      padding: 10px 15px !important;
+      font-size: 14px !important;
+    }
+    .strategyOutlookSection .strategyOutlook .bottomTabs .nav-pills-outlook:before {
+      border-bottom: 41px solid #ec6b27 !important;
+      border-left: 28px solid transparent !important;
+      left: -29px !important;
+      top: -15px !important;
+    }
+    .CircleR {
+      top: 2px !important;
+      right: 2px !important;
+      width: 12px !important;
+      height: 12px !important;
+      font-size: 9px !important;
+  }
+      .whyusMain .whyusInside .transparencyContent {
+          padding-left: 15px;
+      }
+      .whyusMain .whyusInside .transparencyContent h3 {
+        font-size: 24px !important;
+      }
+      .whyusMain .whyusInside .transparencyContent p {
+        font-size: 16px !important;
+      }
+      .whyusMain .whyusInside .whyUsTxt h2 {
+        font-size: 24px !important;
+    }
+      .whyusMain .whyusInside .transparencyGlobal ul li {
+        padding-right: 5px !important;
+    }
+      .whyusMain .whyusInside .transparencyGlobal ul li a {
+        font-size: 14px !important;
+        padding: 5px 5px !important;
+    }
+    .whyusMain {
+      background-image: linear-gradient(135deg, #fff 64%, #015fa9 64%) !important;
+  }
+  .strategyOutlookSection {
+    background-image: linear-gradient(135deg, #015fa9 37%, #fff 37%) !important;
+}
+.analyticalUsd .UsdInside p {
+  font-size: 20px !important;
+}
+.analyticalUsd .UsdInside p span {
+  font-size: 22px !important;
+}
+.analyticalUsd .UsdInside .usdForm {
+  width: 100% !important;
+}
+
+.analyticalUsd .UsdInside .usdForm .amountInput .usd-control {
+  font-size: 14px !important;
+}
+.analyticalUsd .UsdInside .usdForm .DollarSelect .DollarSelect-control {
+  font-size: 14px !important;
+}
+.analyticalUsd .graphChart .graphCal {
+  width: 65% !important;
+}
+.analyticalUsd .graphChart .graphCal ul li a {
+  font-size: 20px !important;
+}
+.analyticalUsd .graphChart .fullView {
+  width: 35% !important;
+}
+.analyticalUsd .graphChart .fullView P {
+  font-size: 16px !important;
+}
+.analyticalUsd .currencyBottom .readAbout {
+  width: 100% !important;
+}
+.analyticalUsd .currencyBottom .readAbout p {
+  font-size: 20px !important;
+}
+.analyticalUsd .currencyBottom .chartPrice h4 {
+  font-size: 22px !important;
+}
+.analyticalUsd .currencyBottom .chartPrice p {
+  font-size: 16px !important;
+}
+.analyticalTool-pills li a {
+  font-size: 14px !important;
+}
+.analyticalTool-pills > li.active:after {
+  border-top: 39px solid #fff !important;
+}
+
+    }
+
+    @media only screen and (min-width: 1680px) and (max-height: 1024px) {
+       
+    }
+
+    @media only screen and (max-width: 1680px) and (max-height: 1050px) {
+        
+    }
+
+
+    @media only screen and (max-width: 1680px) and (max-height: 800px) {
+       
+    }
+
+    @media only screen and (max-width: 1366px) and (max-height: 768px) {
+    }
+
+    @media only screen and (max-width: 1280px) and (min-height: 768px) {
+       
+    }
+
+    @media only screen and (max-width: 1280px) and (max-height: 800px) {
+      
+    }
+
+    @media only screen and (max-width: 1024px) and (max-height: 768px) {
+       
+    }
+
+    @media only screen and (max-width: 1400px) {
+     
+    }
+
+    @media only screen and (max-width: 1280px) {
+       
+    }
+
+    @media only screen and (max-width: 1024px) {
+        
+    }
+    /* Medium Devices, Desktops */
+
+    @media only screen and (max-width: 992px) {}
+    /* Small Devices, Tablets */
+
+    @media only screen and (max-width: 767px) {
+     
+    }
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+       
+    }
+    @media only screen and (max-width: 479px) {
+       
+    }
+
+    @media only screen and (max-width: 420px) {
+       
+    }
+
+    @media only screen and (max-width: 375px) {
+       
+    }
+    /* Custom, iPhone Retina */
+
+    @media only screen and (max-width: 360px) {
+      
+    }
+
+    @media only screen and (max-width: 320px) {
+      
+    }
+
+    @media only screen and (min-width: 400px) {}
+    /* custom  */
+
+    @media only screen and (min-width: 401px) and (max-width: 420px) {}
+
+    @media only screen and (min-width: 321px) and (max-width: 400px) {
+       
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 640px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 992px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 768px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 991px) and (orientation:landscape) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1400px) {}
+
+  
+
+    @media only screen and (max-height: 768px) {}
+
+    @media only screen and (min-height: 768px) {
+       
+    }
+    @media only screen and (max-width: 1024px) and (min-width: 1366px) {
+        
+      } 
+    @media (min-width: 1000px) {}

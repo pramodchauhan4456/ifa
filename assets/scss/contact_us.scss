@@ -1,0 +1,248 @@
+.contact_us_Top{
+    width: 100%;
+    float: left;
+    .contactInside{
+        width: 100%;
+        float: left;
+        padding: 0px 0px 0px 10px;
+        .contactMap{
+            width: 100%;
+            float: left;
+            position: relative;
+            iframe{
+                width: 100%;
+                min-height: 600px;
+            }
+            .MapDescription{
+                width: 800px;
+                float: left;
+                color: #fff;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-image: linear-gradient(135deg, rgba(28, 112, 178, 0.7) 43%, rgba(255, 255, 255, 0) 43%);
+                min-height: 600px;
+                .MapInside{
+                    width: 100%;
+                    float: left;
+                    padding: 20px 0px 0px 20px;
+                    h2{
+                        color: #fff;
+                        font-size: 30px;
+                        font-family: Roboto-Regular;
+                        margin-top: 0px;
+                    }
+                    .mapAddress{
+                        width: 45%;
+                        float: left;
+                        margin-top: 20px;
+                        .mapAddressIcon{
+                            width: 20%;
+                            float: left;
+                        }
+                        .mapAddressInside{
+                            width: 80%;
+                            float: left;
+                            p{
+                                color: #fff;
+                                font-size: 16px;
+                                font-family: Roboto-Regular;
+                                margin-top: 0px;
+                                margin-bottom: 0;
+                            }
+                        }
+                        
+                    }
+                    .CenterFlex{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact_Section{
+    width: 100%;
+    float: left;
+    padding: 0px 0px 0px 10px;
+    margin-top: 30px;
+    .widthOne{
+        width: 36%;
+        img{
+            width: 100%;
+        }
+    }
+    .widthTwo{
+        width: 27.3%;
+        .socialMedia{
+            width: 100%;
+        }
+    }
+    .widthThree{
+        width: 36%;
+        img{
+            width: 100%;
+        }
+    }
+}
+.salesMain{
+    position: relative;
+    display: contents;
+}
+.contact_listInside{
+    width: 100%;
+    float: left;
+    position: relative;
+    border: 2px solid #015fa9;
+    .listImg{
+        opacity: .5;
+    }
+    .overlayTxt{
+        width: 100%;
+        float: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        h2{
+            color: #015fa9;
+            font-size: 30px;
+            font-family: Roboto-Regular;
+            margin-top: 0px;
+            margin-bottom: 0;  
+        }
+        .ConnectColor{
+            color: #fff;
+        }
+        .contactSocial{
+            width: 100%;
+            float: left;
+            margin-top: 20px;
+            ul{
+                list-style-type: none;
+                padding-left: 0;
+                li{
+                    display: inline-block;
+                    padding-right: 15px;
+                }
+            }
+        }
+    }
+    .socialOverlay{
+        background: rgba(1, 95, 169, 0.7);
+        height: 100%;
+    }
+    
+}
+.contactListMargin{
+    margin-top: 30px;
+    width: 100%;
+    float: left;
+}
+.contactpaddingLeft{
+    padding-left: 0px;
+}
+.contactpaddingRight{
+    padding-right: 0px;
+}
+.overlayContact {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 62.4%;
+    opacity: 1;
+    background-color: #008CBA;
+    padding: 10px 20px;
+    -webkit-transition: all 500ms ease-in-out;
+   -moz-transition: all 500ms ease-in-out;
+   -ms-transition: all 500ms ease-in-out;
+   -o-transition: all 500ms ease-in-out;
+   transition: all 500ms ease-in-out;
+    .text {
+        font-family: Roboto-Regular;
+        font-size: 30px;
+        color: #fff;
+    }
+    .textDetails {
+        p {
+            font-family: Roboto-Regular;
+            font-size: 16px;
+            color: #fff;
+            padding: 20px 0px;
+            margin: 0px;
+        }
+    }
+    .contactDetailsMain {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        .contactDetails {
+            padding-left: 25px;
+            h4 {
+                margin: 0px;
+                font-family: Roboto-Regular;
+                font-size: 20px;
+                color: #fff;
+            }
+            .contactDetailsInner {
+                display: flex;
+                align-items: center;
+                padding-top: 25px;
+                p {
+                    font-family: Roboto-Regular;
+                    font-size: 16px;
+                    color: #fff;
+                    margin: 0px;
+                    padding-left: 5px;
+                }
+            }
+        }
+        .aboutTextMain {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            p {
+                font-family: Roboto-Regular;
+                font-size: 20px;
+                color: #fff;
+                text-decoration: underline;
+                text-underline-position: under;
+                margin: 0px;
+            }
+        }
+    }
+  }
+
+  .overlayContact {display:none;}
+// div.contact_listInside:hover div.overlayContact {display:block}
+  
+//   .contact_listInside:hover + .overlayContact {
+//     opacity: 1;
+//   }
+
+// .listtab1{
+// list-style-type: none;
+// width: 100%;
+// float: left;
+// li{
+//     display: inline-flex;
+//     a{
+//         width: 400px;
+//         background: red;
+//     }
+// }
+// }
+
+.hoverTab:hover {
+    background-image: linear-gradient(131deg, rgba(1, 95, 169, 0.7) 42%, rgba(255, 255, 255, 0) 42%);
+}
+
+.hoverTab:hover h2{
+    color: #fff !important;
+}

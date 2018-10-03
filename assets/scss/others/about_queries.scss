@@ -1,0 +1,297 @@
+ /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (min-width: 992px) {
+        
+    }
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1200px) {}
+    /*==========  Non-Mobile First Method  ==========*/
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1400px) {}
+
+    @media only screen and (max-width: 1400px) {}
+
+    @media only screen and (max-width: 1200px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (max-width: 992px) {}
+
+
+     /* Custom, iPhone Retina */
+
+     @media only screen and (max-width: 320px) {}
+     
+    @media only screen and (min-width: 400px) {}
+    /* custom  */
+    @media only screen and (max-width: 768px) {
+        /*Global Foundation css start */
+        .marginAbout{
+            margin: 30px 0px;
+        }
+        .charitable_foundation .charitable_foundationInside {
+            padding: 0px 0px 0px 0px !important;
+        }
+        .charitable_foundation .charitableRightDesc {
+            margin-top: 20px;
+        }
+        .charitable_foundation .charitableRightDesc h2 {
+            text-align: left !important;
+        }
+        .charitable_foundation .charitableRightDesc .charitableContent {
+            margin-top: 15px !important;
+            padding-left: 0px !important;
+        }
+        /*Global Foundation css end */
+
+        /*about history css start */
+        .leftCorner:before {
+           display: none;
+        }
+        .leftCorner1:before {
+            display: none;  
+        }
+        .circleIconCenter{
+            position: absolute;
+        }
+        .circleIconCenter img{
+            width: 60%;
+        }
+        .paddingHistory0{
+            padding: 0;
+        }
+        .main-timeline9 .year {
+            padding: 20px 0px 0px 0px !important;
+            margin: 80px 0 0px !important;
+            text-align: left;
+        }
+        .timeLineContent {
+            width: 100% !important;
+        }
+        .borderTimeLine:before{
+            height: 8px;
+            background: linear-gradient(90deg, #015fa9 100%, #808080 100%) !important;
+        }
+        
+        .borderTimeLine1:before{
+            background: linear-gradient(90deg, #808080 0%, #015fa9 0%) !important;
+        }
+        .historyExplore a {
+            font-size: 18px;
+            padding: 10px 25px;
+            width: 100%;
+        }
+        
+        
+        /*about history css end */
+
+        /*about leadership css start */
+        .leadershipSection .leadershipInside .leadershipInsideTxt {
+            width: 100% !important;
+        }
+        .leadershipSection .leadershipInside .leadershipInsideTxt h1 {
+            font-size: 34px !important;
+        }
+        .leadershipSection .leadershipInside .leadershipDesc {
+            width: 100% !important;
+            margin-top: 10px !important;
+        }
+        .leadershipSection .leadershipCenterRow {
+            display: block !important;
+            margin-top: 50px;
+        }
+        .leadershipSection .leadershipInside {
+            padding: 20px 0px 0px !important;
+        }
+        .leadershipSection .leadershipList .leadershipListDesc {
+            width: 100% !important;
+        }
+        .leadershipSection .leadershipList .leadershipListDesc .leadershipListOverlay {
+            padding: 0px 20px 20px !important;
+            min-height: auto !important;
+        }
+        .leadershipSection .leadershipList .leadershipListDesc .leadershipListOverlay h2 {
+            font-size: 24px !important;
+        }
+        .leadershipSection .leadershipList .leadershipListDesc .leadershipListOverlay h4 {
+            font-size: 18px !important;
+        }
+        .leadershipSection .leadershipList {
+            margin-top: 55px !important;
+        }
+        .spaceHeightleaderShip{
+            height: 0px !important;
+        }
+        .leadershipmargin{
+            margin-bottom: 80px !important;
+        }
+        .leadershipmargin1{
+            margin-bottom: 30px !important;
+           }
+           .leadership_dialog {
+            width: auto !important;
+            margin-top: 40px !important;
+        }
+        .leadership_dialog .closeLeadership {
+            width: 30px !important;
+            height: 30px !important;
+            font-size: 16px !important;
+            right: -8px !important;
+            top: -10px !important;
+        }
+        .leadership_dialog .leadership_body .leadershipStrip {
+            display: none;
+        }
+        .ModalProfile img{
+            width: 100%;
+        }
+        .leadership_dialog .leadership_body {
+            padding: 100px 0px 30px 0px !important;
+        }
+        .leadership_dialog .leadership_body .ModalLeaderTop {
+            padding: 0px 15px !important;
+        }
+        .leadership_dialog .leadership_body .ModalLeaderTop .ModalProfile {
+            padding: 0px 0px !important;
+        }
+        .leadership_dialog .leadership_body .ModalLeaderTop .ModalLeaderDesc h2 {
+            font-size: 24px;
+        }
+        .leadership_dialog .leadership_body .ModalLeaderTop .ModalLeaderDesc h4 {
+            font-size: 18px;
+        }
+        /*about leadership css end */
+    }
+
+    @media only screen and (min-width: 381px) and (max-width: 420px) {
+
+    }
+
+    @media only screen and (min-width: 321px) and (max-width: 380px) {
+    
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 640px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 992px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 768px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 991px) and (orientation:landscape) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1400px) {}
+
+    @media only screen and (min-width: 991px) and (max-width: 1400px) {}
+
+    @media only screen and (max-height: 768px) {}
+
+    @media only screen and (min-height: 768px) {}
+
+    @media (min-width: 1000px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        /*about history css start */
+        .main-timeline9 .circle {
+            width: 100px !important;
+            height: 100px !important;
+            margin-top: 40px !important;
+        }
+        .circleIconCenter img{
+            width: 60% !important;
+        }
+        .timeLineContent {
+            width: 55% !important;
+        } 
+
+        /*about history css end */
+
+        .leadership_dialog {
+            width: 768px !important;
+        }
+        .ModalProfile img{
+            width: 100%;
+        }
+        .leadership_dialog .leadership_body .leadershipStrip {
+            background-image: linear-gradient(45deg, #1c70b2 95%, #fff 95%) !important;
+        }
+    }
+    
+
+
+    
+
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+        /*about history css start */
+        .timeLineContent {
+            width: 54% !important;
+        }
+        /*about history css end */
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {
+        .charitable_foundation .charitable_foundationInside .charitable_foundationStrip .charitableTxt p {
+            font-size: 26px !important;
+        } 
+        .catherineStrip .catherineStripTxt p {
+            font-size: 26px !important;
+        }
+        .health_campStrip .health_campStripTxt p {
+            font-size: 26px !important;
+        }
+
+          /*about leadership css start */
+          .leadershipSection .leadershipInside {
+            padding: 20px 30px 0px !important;
+        }
+        .leadershipSection .leadershipInside .leadershipInsideTxt h1 {
+            font-size: 30px !important;
+        }
+        .leadershipSection .leadershipInside .leadershipDesc {
+            margin-top: 20px !important;
+        }
+        .leadershipSection .leadershipStrip {
+            background-image: linear-gradient(45deg, #fff 38%, #1c70b2 38%) !important;
+        }
+        
+        /*about leadership css end */
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1300px) {
+    
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .charitable_foundation .charitable_foundationInside .charitable_foundationStrip {
+            background-image: linear-gradient(135deg, #1c70b2 44%, #fff 44%) !important;
+        }
+        .catherineStrip {
+            background-image: linear-gradient(45deg, #fff 40%, #1c70b2 40%) !important;
+        }
+/*about leadership css start */
+        .leadershipSection .leadershipList .leadershipListDesc {
+            width: 90% !important;
+        }
+        .leadershipSection .leadershipList .leadershipListDesc .leadershipListOverlay h2 {
+            font-size: 24px !important;
+        }
+        .leadershipSection .leadershipList .leadershipListDesc .leadershipListOverlay h4 {
+            font-size: 18px !important;
+        }
+/*about leadership css end */
+    }

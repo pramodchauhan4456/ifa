@@ -1,0 +1,850 @@
+.treasuryElitePadding {
+    a {
+        padding: 10px;
+    }
+}
+
+.treasuryMain {
+    width: 100%;
+    float: left;
+    padding-left: 3.6%;
+    .treasuryContainer {
+        width: 100%;
+        float: left;
+        .connectorsMain {
+            background-image: linear-gradient(150deg, rgba(251, 242, 208, 0.7) 41%, rgba(255, 255, 255, 0) 41%);
+            min-height: 350px;
+            position: relative;
+            .connectorsInner {
+                position: absolute;
+                top: 27%;
+                h4 {
+                    font-family: Roboto-Light;
+                    font-size: 60px;
+                    text-transform: capitalize;
+                    color: #4d4d4d;
+                    padding-left: 25px;
+                    padding-right: 15px;
+                    margin: 0px;
+                    padding-bottom: 15px;
+                }
+                .divideLine {
+                    height: 1px;
+                    background: #ea5b0f;
+                    position: relative;
+                }
+                .divideLine:before {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-bottom: 10px solid #ea5b0f;
+                    border-left: 10px solid transparent;
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0;
+                }
+                .connectorText {
+                    p {
+                        padding-left: 25px;
+                        font-family: Roboto-regular;
+                        font-size: 20px;
+                        padding-top: 15px;
+                        color: #4d4d4d;
+                    }
+                }
+                .memberBtn {
+                    padding-left: 25px;
+                    padding-top: 10px;
+                    width: 70%;
+                    text-align: center;
+                    .btn {
+                        border: 2px solid #015fa9;
+                        width: 100%;
+                        text-align: center;
+                        padding: 5px 0px;
+                        border-radius: 10px;
+                        font-family: Roboto-regular;
+                        font-size: 20px;
+                        color: #015fa9;
+                        display: inline-block;
+                    }
+                    a:hover {
+                        text-decoration: none;
+                    }
+                    a:focus {
+                        text-decoration: none;
+                    }
+                    .loginText {
+                        font-family: Roboto-regular;
+                        font-size: 20px;
+                        color: #4d4d4d;
+                        margin: 0px;
+                        padding-top: 25px;
+                        a {
+                            color: #015fa9;
+                        }
+                    }
+                }
+            }
+        }
+        .treasuryInner {
+            background: url(../images/treasury-elite/img_header.jpg);
+            height: 869px;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 100% 100%);
+            background-position: 100%;
+            position: relative;
+            .playBtn {
+                position: absolute;
+                top: 35%;
+                right: 25%;
+                transform: translate(-50%,-50%);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.aboutCompanyMain {
+    width: 100%;
+    float: left;
+    .aboutCompanyContainer {
+        width: 100%;
+        float: left;
+        padding: 0% 3% 4% 3.6%;
+        margin-top: -380px;
+        .aboutCompanyInner {
+            h4 {
+                font-family: Roboto-Light;
+                font-size: 30px;
+                color: #4d4d4d;
+                margin: 0px 0px 5px;
+            }
+            .divideLine {
+                height: 1px;
+                background: #ea5b0f;
+                position: relative;
+            }
+            .divideLine:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-bottom: 10px solid #ea5b0f;
+                border-left: 10px solid transparent;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+            }
+            .whoWeAreText {
+                p {
+                    font-family: Roboto-regular;
+                    font-size: 16px;
+                    color: #808080;
+                    padding-right: 9%;
+                    padding-top: 15px;
+                }
+            }
+            .missionMain {
+                width: 90%;
+                float: left;
+                padding-top: 25px;
+                .missionImage {
+                    width: 26%;
+                    float: left;
+                }
+                .missionText {
+                    width: 74%;
+                    float: left;
+                    h4 {
+                        font-family: Roboto-regular;
+                        font-size: 20px;
+                        color: #4d4d4d;
+                        margin: 0px;
+                        padding: 10px 0px 5px;
+                    }
+                    .divideLine1 {
+                        height: 1px;
+                        background: #ea5b0f;
+                        position: relative;
+                    }
+                    p {
+                        font-family: Roboto-regular;
+                        font-size: 16px;
+                        color: #808080;
+                        padding-top: 15px;
+                    }
+                }
+            }
+            .attendMain {
+                width: 90%;
+                float: left;
+                padding-top: 25px;
+                .attendText {
+                    width: 74%;
+                    float: left;
+                    h4 {
+                        font-family: Roboto-regular;
+                        font-size: 20px;
+                        color: #4d4d4d;
+                        text-align: right;
+                    }
+                    .divideLine1 {
+                        height: 1px;
+                        background: #ea5b0f;
+                        position: relative;
+                    }
+                    p {
+                        font-family: Roboto-regular;
+                        font-size: 16px;
+                        color: #808080;
+                        padding-top: 15px;
+                        text-align: right;
+                    }
+                }
+                .attendImage {
+                    width: 26%;
+                    float: left;
+                    img {
+                        float: right;
+                    }
+                }
+            }
+        }
+        .aboutCompanyImage {
+            img {
+                width: 100%;
+                padding-top: 70px;
+            }
+        }
+    }
+}
+
+
+
+.companyInfoMain {
+    width: 100%;
+    float: left;
+    background: #015fa9;
+    .companyInfo {
+        padding: 2% 4%;
+        width: 100%;
+        float: left;
+        .companyInfoContainer {
+            text-align: center;
+            h4 {
+                font-family: Roboto-regular;
+                font-size: 60px;
+                color: #fff;
+            }
+            p {
+                font-family: Roboto-regular;
+                font-size: 20px;
+                color: #fff; 
+            }
+        }
+    }
+}
+
+.partnersMain {
+    width: 100%;
+    float: left;
+    .partnersContainer {
+        width: 100%;
+        float: left;
+        padding: 4% 3% 2% 3.6%;
+        .partnersInner {
+            h4 {
+                font-family: Roboto-Light;
+                font-size: 30px;
+                color: #4d4d4d;
+                margin: 0px 0px 5px;
+            }
+            .divideLine {
+                height: 1px;
+                background: #ea5b0f;
+                position: relative;
+            }
+            .divideLine:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-bottom: 10px solid #ea5b0f;
+                border-left: 10px solid transparent;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+            }
+            .partnersList {
+                ul {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding-left: 0px;
+                    margin: 0px;
+                    padding-top: 20px;
+                }
+            }
+            .partnerBtn {
+                text-align: center;
+                margin-top: 25px;
+                a {
+                    border: 2px solid #015fa9;
+                    width: 30%;
+                    text-align: center;
+                    padding: 5px 0px;
+                    border-radius: 10px;
+                    font-family: Roboto-regular;
+                    font-size: 20px;
+                    color: #015fa9;
+                    display: inline-block;
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+                a:focus {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.advisorsMain {
+    width: 100%;
+    float: left;
+    .advisorsContainer {
+        width: 100%;
+        float: left;
+        padding: 4% 3% 8% 3.6%;
+        .advisorsInner {
+            h4 {
+                font-family: Roboto-Light;
+                font-size: 30px;
+                color: #4d4d4d;
+                margin: 0px 0px 5px;
+            }
+            .divideLine {
+                height: 1px;
+                background: #ea5b0f;
+                position: relative;
+            }
+            .divideLine:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-bottom: 10px solid #ea5b0f;
+                border-left: 10px solid transparent;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+            }
+
+            .firstColumn {
+                .backgroundMember {
+                    width: 0;
+                    height: 0;
+                    border-top: 290px solid rgba(251, 242, 208, 0.7);
+                    border-right: 290px solid transparent;
+                    z-index: 0;
+                    .backgroundInner {
+                        img {
+                            position: absolute;
+                            top: 17%;
+                            left: 9%;
+                            z-index: 2;
+                            border: 2px solid #015fa9;
+                        }
+                    }
+                    .backgroundInner:after {
+                        content: "";
+                        display: block;
+                        max-width: 488px;
+                        max-height: 476px;
+                        position: absolute;
+                        top: 13%;
+                        left: 6%;
+                        width: 42%;
+                        height: 70%;
+                        z-index: 1;
+                        border: 2px solid #ea5b0f;
+                    }
+                }
+            }
+
+            .secondColumn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .backgroundMember {
+                    width: 0;
+                    height: 0;
+                    border-top: 290px solid rgba(251, 242, 208, 0.7);
+                    border-right: 290px solid transparent;
+                    z-index: 0;
+                    .backgroundInner {
+                        img {
+                            position: absolute;
+                            top: 17%;
+                            left: 29%;
+                            border: 2px solid #015fa9;
+                        }
+                    }
+                    .backgroundInner:after {
+                        content: "";
+                        display: block;
+                        max-width: 488px;
+                        max-height: 476px;
+                        position: absolute;
+                        top: 13%;
+                        left: 26%;
+                        width: 42%;
+                        height: 70%;
+                        z-index: -1;
+                        border: 2px solid #ea5b0f;
+                    }
+                }
+            }
+
+            .thirdColumn {
+                float: right;
+                position: relative;
+                .backgroundMember {
+                    width: 0;
+                    height: 0;
+                    border-top: 290px solid rgba(251, 242, 208, 0.7);
+                    border-right: 290px solid transparent;
+                    z-index: 0;
+                    .backgroundInner {
+                        img {
+                            position: absolute;
+                            top: 17%;
+                            right: 11%;
+                            z-index: 2;
+                            border: 2px solid #015fa9;
+                        }
+                    }
+                    .backgroundInner:after {
+                        content: "";
+                        display: block;
+                        max-width: 488px;
+                        max-height: 476px;
+                        position: absolute;
+                        top: 13%;
+                        left: 12%;
+                        width: 65%;
+                        height: 70%;
+                        z-index: 1;
+                        border: 2px solid #ea5b0f;
+                    }
+                }
+            }
+
+            .memberMain {
+                .memberBackground {
+                    background-image: linear-gradient(140deg, rgba(251, 242, 208, 0.7) 41%, rgba(255, 255, 255, 0) 41%);
+                    min-height: 300px;
+                    position: relative;
+                    .memberDetail {
+                        padding: 45px 0px 0px 50px;
+                        img {
+                            border: 2px solid #0e67ad;
+                            position: relative;
+                            z-index: 2;
+                        }
+                    }
+                    .memberDetail:after {
+                        content: "";
+                        display: block;
+                        max-width: 488px;
+                        max-height: 476px;
+                        position: absolute;
+                        top: 9%;
+                        left: 5%;
+                        width: 40%;
+                        height: 70%;
+                        z-index: 0;
+                        border: 2px solid #ea5b0f;
+                    }
+                    .memberName {
+                        padding-left: 35px;
+                        text-align: center;
+                        width: 68%;
+                        padding-top: 25px;
+                        float: left;
+                        h4 {
+                            font-family: Roboto-Light;
+                            font-size: 20px;
+                            color: #4d4d4d;
+                        }
+                        h5 {
+                            font-family: Roboto-regular;
+                            font-size: 16px;
+                            color: #4d4d4d;
+                        }
+                    }
+                }
+                .thirdColumnBackground {
+                    background-image: linear-gradient(134deg, rgba(251, 242, 208, 0.7) 47%, rgba(255, 255, 255, 0) 47%);
+                    min-height: 330px;
+                    position: relative;
+                    float: right;
+                    .memberDetail {
+                        padding: 45px 0px 0px 32px;
+                        img {
+                            border: 2px solid #0e67ad;
+                            position: relative;
+                            z-index: 2;
+                        }
+                    }
+                    .memberDetail:after {
+                        content: "";
+                        display: block;
+                        max-width: 488px;
+                        max-height: 476px;
+                        position: absolute;
+                        top: 9%;
+                        left: 5%;
+                        width: 40%;
+                        height: 70%;
+                        z-index: 0;
+                        border: 2px solid #ea5b0f;
+                    }
+                    .memberName {
+                        padding-left: 35px;
+                        text-align: center;
+                        width: 68%;
+                        padding-top: 25px;
+                        float: left;
+                        h4 {
+                            font-family: Roboto-Light;
+                            font-size: 20px;
+                            color: #4d4d4d;
+                        }
+                        h5 {
+                            font-family: Roboto-regular;
+                            font-size: 16px;
+                            color: #4d4d4d;
+                        }
+                    }
+                }
+            }
+            .contentRight {
+                width: 100%;
+                float: left;
+            }
+        }
+    }
+}
+
+.eventsMain {
+    width: 100%;
+    float: left;
+    .eventsContainer {
+        width: 100%;
+        float: left;
+        padding: 2% 3% 2% 3.6%;
+        .eventsInnerMain {
+            background: url(../images/treasury-elite/img_latest_event.png);
+            height: 300px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .eventsInner {
+                width: 100%;
+                float: left;
+                margin-top: 7%;
+                .divideLine {
+                    height: 1px;
+                    background: #ea5b0f;
+                    position: relative;
+                    margin-top: 3px;
+                }
+                .divideLine:before {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-bottom: 10px solid #ea5b0f;
+                    border-left: 10px solid transparent;
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0;
+                }
+                .divideLine2 {
+                    background: #ea5b0f;
+                    height: 4px;
+                    margin-left: 10px;
+                }
+                .divideLine3 {
+                    background: #ea5b0f;
+                    height: 4px;
+                    margin-right: 10px;
+                }
+                .divideLine4 {
+                    height: 1px;
+                    background: #ea5b0f;
+                    position: relative;
+                    margin-top: 3px;
+                }
+                .divideLine4:before {
+                    content: '';
+                    width: 0;
+                    height: 0;
+                    border-bottom: 10px solid #ea5b0f;
+                    border-right: 10px solid transparent;
+                    position: absolute;
+                    bottom: 0px;
+                    left: 0;
+                }
+                .eventsText {
+                    text-align:center;
+                    h4 {
+                        margin: 0px;
+                        margin-top: -15px;
+                        font-family: Roboto-Medium;
+                        font-size: 30px;
+                        color: #000;
+                    }
+                }
+            }
+        }
+        .sliderMain {
+            background: #015fa9;
+            width: 100%;
+            float: left;
+            .slideChange {
+                width: 100%;
+                margin-left: 0;
+                left: 0;
+                bottom: 0;
+                background: #fff;
+                margin-bottom: 0px;
+                opacity: 0.5;
+                padding: 5px 0px 0px;
+                li {
+                    border: 2px solid #015fa9;
+                    width: 15px;
+                    height: 15px;
+                    padding-right: 10px;
+                    margin: 0px;
+                    margin-right: 15px !important;
+                }
+                .active {
+                    background: #ea5b0f;
+                    border-color: #ea5b0f;
+                    margin: 0px !important;
+                    margin-right: 15px !important;
+                }
+               
+            }
+            .sliderText {
+                background: #015fa9;
+                padding: 15px 20px;
+                .eventName {
+                    h4 {
+                        margin: 0px;
+                        font-family: Roboto-regular;
+                        font-size: 20px;
+                        color: #fff;
+                        padding-bottom: 10px;
+                    }
+                }
+                .topicName {
+                    p {
+                        margin: 0px;
+                        font-family: Roboto-regular;
+                        font-size: 16px;
+                        color: #fff;
+                        padding-top: 20px;
+                    }
+                }
+                .guestName {
+                    p {
+                        margin: 0px;
+                        font-family: Roboto-regular;
+                        font-size: 16px;
+                        color: #fff;
+                        padding-top: 20px;
+                        padding-bottom: 15px;
+                    }
+                }
+                .attendeesName {
+                    p {
+                        margin: 0px;
+                        font-family: Roboto-regular;
+                        font-size: 16px;
+                        color: #fff; 
+                    }
+                }
+                .modName {
+                    p {
+                        margin: 0px;
+                        font-family: Roboto-regular;
+                        font-size: 16px;
+                        color: #fff;
+                        padding-top: 20px;
+                    }
+                }
+                .partnersName {
+                    p {
+                        margin: 0px;
+                        font-family: Roboto-regular;
+                        font-size: 16px;
+                        color: #fff;
+                        padding-top: 20px; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+.testimonialMain {
+    width: 100%;
+    float: left;
+    .testimonialContainer {
+        width: 100%;
+        float: left;
+        padding: 2% 3% 2% 3.6%;
+        .testimonialColumn {
+            h4 {
+                font-family: Roboto-Light;
+                font-size: 30px;
+                color: #4d4d4d;
+                margin: 0px 0px 5px; 
+            }
+            .divideLine {
+                height: 1px;
+                background: #ea5b0f;
+                position: relative;
+            }
+            .divideLine:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-bottom: 10px solid #ea5b0f;
+                border-left: 10px solid transparent;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+            }
+            p {
+                margin: 0px;
+                padding: 15px 0px 5px;
+                font-family: Roboto-regular;
+                font-size: 20px;
+                color: #4d4d4d;
+            }
+            a {
+                font-family: Roboto-regular;
+                font-size: 20px;
+                color: #015fa9; 
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            a:focus {
+                text-decoration: none;
+            }
+            .testimonialVideo {
+                width: 100%;
+                float: left;
+                position: relative;
+                img {
+                    width: 100%;
+                }
+                .playBtn{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    cursor: pointer;
+                }
+            }
+        }
+        .faqColumn {
+            padding: 0px 45px;
+            min-height: 405px;
+            h4 {
+                font-family: Roboto-Light;
+                font-size: 30px;
+                color: #4d4d4d;
+                margin: 0px 0px 5px;
+            }
+            .divideLine {
+                height: 1px;
+                background: #ea5b0f;
+                position: relative;
+            }
+            .divideLine:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-bottom: 10px solid #ea5b0f;
+                border-left: 10px solid transparent;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+            }
+            p {
+                font-family: Roboto-regular;
+                font-size: 20px;
+                color: #4d4d4d;
+                padding: 15px 0px 5px;
+                margin: 0px;
+            }
+            .faqText {
+                font-family: Roboto-regular;
+                font-size: 20px;
+                color: #015fa9;
+                padding: 0px;
+            }
+            .faqImage {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                margin-top: 90px;
+            }
+        }
+        .contactColumn {
+            h4 {
+                font-family: Roboto-Light;
+                font-size: 30px;
+                color: #4d4d4d;
+                margin: 0px 0px 5px;
+            }
+            .divideLine {
+                height: 1px;
+                background: #ea5b0f;
+                position: relative;
+            }
+            .divideLine:before {
+                content: '';
+                width: 0;
+                height: 0;
+                border-bottom: 10px solid #ea5b0f;
+                border-left: 10px solid transparent;
+                position: absolute;
+                bottom: 0px;
+                right: 0;
+            }
+            p {
+                font-family: Roboto-regular;
+                font-size: 20px;
+                color: #4d4d4d;
+                padding: 15px 0px 5px;
+                margin: 0px;
+                line-height: 31px;
+            }
+            .contactText {
+                color: #015fa9;
+            }
+            .contactUsImage {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                margin-top: 90px;
+            }
+        }
+    }
+}
+

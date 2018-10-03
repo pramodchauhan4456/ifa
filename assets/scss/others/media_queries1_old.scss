@@ -1,0 +1,388 @@
+    /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (min-width: 992px) {
+        
+    }
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1200px) {}
+    /*==========  Non-Mobile First Method  ==========*/
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1400px) {}
+
+    @media only screen and (max-width: 1400px) {}
+
+    @media only screen and (max-width: 1200px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (max-width: 992px) {}
+    /* Small Devices, Tablets */
+
+    @media only screen and (max-width: 767px) {
+
+        .networkingMain {
+            border-top: none !important;
+            .mobileHeading {
+                width: 100%;
+                float: left;
+                position: relative;
+                text-align: center;
+                // .mobileTitle:before {
+                //     content: "";
+                //     display: block;
+                //     background: #333333;
+                //     width: 100%;
+                //     height: 2px;
+                //     position: absolute;
+                //     top: 50%;
+                //     z-index: 0;
+                // }
+                .mobileTitle span {
+                    background: #fff;
+                    padding: 0 10px;
+                    position: absolute;
+                    z-index: 1;
+                    font-family: Roboto-Regular;
+                    font-size: 22px;
+                    color: #333333;
+                    margin: 0px;
+                    top: 0px;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .articleSection{
+                .articleSubSection {
+                    padding-left: 0px !important;
+                    h4 {
+                        text-align: center;
+                        font-family: Roboto-Medium !important;
+                        font-size: 22px !important;
+                        padding-top: 10px;
+                    }
+                    .btnMain {
+                        text-align: center;
+                        p{
+                            font-size: 16px;
+                            text-align: left;
+                        }
+                        button {
+                            margin-top: 0px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .customersMain {
+            border-top: none !important;
+            .customersInner {
+                .tabsList li {  
+                    padding: 0px!important;
+                    border: none !important;
+                    transform: none !important;
+                    margin-left: 0px!important;
+                    a{
+                        padding: 0px 5px !important; 
+                    }
+                }
+                .mobileTxtC1{
+                    width: 56% !important;
+                }
+                .mobileTxtC2{
+                    width: 44% !important; 
+                }
+                .tabsList  li:first-child {
+                    text-align: right;
+                    border-right: 2px solid #1a6fb1 !important;
+                }
+                .tabsList span {
+                    position: inherit;
+                    transform: none !important;
+                    top: 0px !important;
+                    left: 0px !important;
+                    font-size: 16px !important;
+                }
+                .tabsTop {
+                    background: #000 !important;
+                    height: 2px !important;
+                    width: 100%;
+                    float: left;
+                }
+                .tabsList {
+                    background: #fff;
+                    width: 80%;
+                    margin: 0 auto;
+                    padding-left: 0px;
+                    margin-top: -10px;
+                }
+            }
+        }
+        .testimonialMobile {
+            background: #000 !important;
+            height: 2px !important;
+            width: 100%;
+            float: left;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .testimonialMobileTitle {
+            background: #fff;
+            margin: 0 auto;
+            padding: 0px 10px;
+            margin-top: 0px;
+            font-family: Roboto-Regular;
+            font-size: 22px;
+        }
+        #testimonialSlider {
+            margin-top: 20px !important;
+        }
+        .bgImage {
+            height: 450px !important;
+            background-position: 55% 0% !important;
+        }
+        .slantBorder {
+            background-image: -webkit-linear-gradient(207deg, #fff 50%, transparent 50%) !important;
+            height: 450px !important;
+        }
+        .testimonialDetail {
+            padding-top: 35px !important;
+            width: 60% !important;
+            h4 {
+                padding-top: 0px !important;
+                font-size: 16px !important;
+            }
+            p {
+                font-size: 16px !important;
+                padding: 10px 0px 15px !important;
+            }
+        }
+
+        .lSSlideOuter .lSPager.lSpg {
+            position: relative !important;
+            right: 0 !important;
+            margin-top: 15px !important;
+        }
+
+        .footerMain .footerTop .footerTopMenu {
+            text-align: center;
+        }
+        .footerTopMenu li{
+            padding: 0 10px !important;
+        }
+        .mobileCenter{
+            width: 100%;
+            float: left;
+            text-align: center;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footerTopMenu li a {
+            font-size: 14px !important;
+        }
+
+        .footerTopMenu li:first-child {
+            padding-left: 0px !important;
+        }
+
+        .footerSocialIconsMain {
+            text-align: left !important;
+        }
+
+        .footerSocialIcons li {
+            padding-left: 0px !important;
+            margin-bottom: 10px;
+        }
+
+        .footerSocialIcons {
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .footerTop p {
+            font-size: 14px!important;
+            text-align: center;
+        }
+
+        .footerDownMenu li a {
+            font-size: 14px !important;
+        }
+        .height {
+            height: 50px !important;
+        }
+    }
+
+
+
+    /* Extra Small Devices, Phones */
+
+    @media only screen and (max-width: 420px) {
+
+
+}
+    /* Custom, iPhone Retina */
+
+    @media only screen and (max-width: 320px) {}
+
+    @media only screen and (min-width: 400px) {}
+    /* custom  */
+
+    @media only screen and (min-width: 381px) and (max-width: 420px) {
+  
+    }
+
+    @media only screen and (min-width: 321px) and (max-width: 380px) {
+       
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 640px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 992px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 768px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 991px) and (orientation:landscape) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1400px) {}
+
+    @media only screen and (min-width: 991px) and (max-width: 1400px) {}
+
+    @media only screen and (max-height: 768px) {}
+
+    @media only screen and (min-height: 768px) {}
+
+    @media (min-width: 1000px) {}
+
+
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+        .articleInner button {
+            margin-top: 116px !important;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+        .articleInner p {
+            font-size: 18px !important;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1300px) {
+        .tabsList li {
+            width: 25% !important;
+        }
+        .tabsList span {
+            font-size: 30px !important;
+            top: -10px !important;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .tabsList span {
+            font-size: 24px !important;
+            top: -5px !important;
+        }
+
+        .testimonialDetail {
+            h4 {
+                font-size: 16px !important;
+            }
+            p {
+                font-size: 16px !important;
+                padding: 10px 0px 15px !important;
+            }
+        }
+
+        .footerSocialIcons li {
+            padding: 0px !important;
+        }
+
+        .footerSocialIcons img {
+            width: 85% !important;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {
+        .footerSocialIconsMain {
+            text-align: left !important;
+        }
+        .bgImage {
+            background-position: 65% 0% !important;
+        }
+
+        // .slantBorder {
+        //     background-image: -webkit-linear-gradient(207deg, #fff 42%, transparent 42%) !important;
+        // }
+
+        .networkTitle {
+            font-size: 24px !important;
+        }
+
+        .testimonialTitle {
+            font-size: 24px !important;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        .articleInner p {
+            font-size: 16px !important;
+        }
+    }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footerTopMenu li {
+        padding: 0px 8px !important;
+    }
+
+    .footerTopMenu li:first-child {
+        padding-left: 0px !important;
+    }
+
+    .footerTopMenu li a {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+    .footerTopMenu li{
+        padding: 0 10px !important;
+    }
+
+    .footerTopMenu li a {
+        font-size: 16px !important;
+    }
+
+    .footerTopMenu li:first-child {
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .footerTopMenu li{
+        padding: 0 16px !important;
+    }
+
+    .footerTopMenu li a {
+        font-size: 18px !important;
+    }
+
+    .footerTopMenu li:first-child {
+        padding-left: 0px !important;
+    }
+}

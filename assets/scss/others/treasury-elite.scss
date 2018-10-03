@@ -1,0 +1,263 @@
+ /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (min-width: 992px) {
+        
+    }
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1200px) {}
+    /*==========  Non-Mobile First Method  ==========*/
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1400px) {}
+
+    @media only screen and (max-width: 1400px) {}
+
+    @media only screen and (max-width: 1200px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (max-width: 992px) {}
+
+
+     /* Custom, iPhone Retina */
+
+     @media only screen and (max-width: 320px) {}
+     
+    @media only screen and (min-width: 400px) {}
+    /* custom  */
+    @media only screen and (max-width: 767px) {
+        .treasuryMain .treasuryContainer .connectorsMain .connectorsInner h4 {
+            font-size: 20px;
+        }
+
+        .companyInfoMain .companyInfo .companyInfoContainer h4 {
+            font-size: 30px;
+        }
+
+        .companyInfoMain .companyInfo .companyInfoContainer p {
+            font-size: 16px;
+        }
+
+        .partnersMain .partnersContainer .partnersInner .partnersList ul {
+            display: block;
+        }
+
+        .partnersMain .partnersContainer .partnersInner .partnersList ul li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 30px;
+        }
+
+        .partnersMain .partnersContainer .partnersInner h4 {
+            font-size: 20px;
+        }
+
+        .partnersMain .partnersContainer .partnersInner .partnerBtn a {
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .advisorsMain .advisorsContainer .advisorsInner h4 {
+            font-size: 20px;
+        }
+
+        .testimonialMain .testimonialContainer .testimonialColumn h4 {
+            font-size: 20px;
+        }
+
+        .testimonialMain .testimonialContainer .testimonialColumn p {
+            font-size: 16px;
+        }
+
+        .testimonialMain .testimonialContainer .testimonialColumn a {
+            font-size: 16px;
+        }
+
+        .testimonialMain .testimonialContainer .faqColumn h4 {
+            font-size: 20px;
+        }
+
+        .testimonialMain .testimonialContainer .faqColumn {
+            padding: 30px 0px;
+        }
+
+        .testimonialMain .testimonialContainer .faqColumn .faqText {
+            font-size: 16px;
+        }
+
+        .testimonialMain .testimonialContainer .faqColumn p {
+            font-size: 16px;
+        }
+
+        .testimonialMain .testimonialContainer .faqColumn .faqImage {
+            margin-top: 20px;
+        }
+
+        .testimonialMain .testimonialContainer .contactColumn h4 {
+            font-size: 20px;
+        }
+
+        .testimonialMain .testimonialContainer .contactColumn p {
+            font-size: 16px;
+        }
+
+        .testimonialMain .testimonialContainer .contactColumn .contactUsImage {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .connectorText br {
+            display: none;
+        }
+
+        .treasuryMain .treasuryContainer .connectorsMain .connectorsInner .connectorText p {
+            font-size: 14px;
+        }
+
+        .treasuryMain .treasuryContainer .connectorsMain .connectorsInner .memberBtn .btn {
+            font-size: 14px;
+        }
+
+        .treasuryMain .treasuryContainer .connectorsMain .connectorsInner .memberBtn .loginText {
+            font-size: 14px;
+            padding-top: 15px;
+        }
+
+        .treasuryMain .treasuryContainer .treasuryInner {
+            height: 300px;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer {
+            margin-top: 0px;
+        }
+
+        .treasuryMain .treasuryContainer .treasuryInner {
+            clip-path: inherit;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner h4 {
+            font-size: 20px;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .missionMain .missionText h4 {
+            font-size: 16px;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .attendMain .attendText h4 {
+            font-size: 16px;
+            text-align: inherit;
+        }
+
+        .playBtn img {
+            width: 50% !important;
+        }
+
+        .treasuryMain .treasuryContainer .treasuryInner .playBtn {
+            top: 50%;
+            left: 50%;
+            right: inherit;
+        }
+
+        .aboutCompanyInner {
+            padding-top: 20px;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .whoWeAreText p {
+            font-size: 14px;
+            padding-right: 0px;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .missionMain .missionImage {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .missionMain .missionText {
+            padding-top: 20px;
+            width: 100%;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .missionMain .missionText p {
+            font-size: 14px;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .attendMain .attendText p {
+            font-size: 14px;
+            text-align: inherit;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .attendMain .attendImage {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyInner .attendMain .attendText {
+            padding-top: 20px;
+            width: 100%;
+        }
+
+        .aboutCompanyMain .aboutCompanyContainer .aboutCompanyImage img {
+            padding-top: 10px;
+        }
+
+
+
+    }
+
+    @media only screen and (min-width: 381px) and (max-width: 420px) {}
+
+    @media only screen and (min-width: 321px) and (max-width: 380px) {
+    
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 640px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 992px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 768px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 991px) and (orientation:landscape) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1400px) {}
+
+    @media only screen and (min-width: 991px) and (max-width: 1400px) {}
+
+    @media only screen and (max-height: 768px) {}
+
+    @media only screen and (min-height: 768px) {}
+
+    @media (min-width: 1000px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {}
+
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {}
+
+    @media only screen and (min-width: 1080px) and (max-width: 1280px) {}
+
+    @media only screen and (max-width: 767px) {}

@@ -1,0 +1,255 @@
+ /*==========  Mobile First Method  ==========*/
+    /* Custom, iPhone Retina */
+
+    @media only screen and (min-width: 320px) {}
+    /* Extra Small Devices, Phones */
+
+    @media only screen and (min-width: 480px) {}
+    /* Small Devices, Tablets */
+
+    @media only screen and (min-width: 768px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (min-width: 992px) {
+        
+    }
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1200px) {}
+    /*==========  Non-Mobile First Method  ==========*/
+    /* Large Devices, Wide Screens */
+
+    @media only screen and (min-width: 1400px) {}
+
+    @media only screen and (max-width: 1400px) {}
+
+    @media only screen and (max-width: 1200px) {}
+    /* Medium Devices, Desktops */
+
+    @media only screen and (max-width: 992px) {}
+
+
+     /* Custom, iPhone Retina */
+
+     @media only screen and (max-width: 320px) {}
+     
+    @media only screen and (min-width: 400px) {}
+    /* custom  */
+    @media only screen and (max-width: 768px) {
+        .contact_us_Top .contactInside {
+            padding: 0px 0px 0px 0px !important;
+        } 
+        .contact_us_Top .contactInside .contactMap iframe {
+            min-height: 230px !important;
+        }
+        .contact_us_Top .contactInside .contactMap .MapDescription {
+            background-image: linear-gradient(135deg, rgba(28, 112, 178, 0.7) 25%, rgba(255, 255, 255, 0) 25%);
+            min-height: 230px !important;
+            display: none;
+        }
+        .contact_us_Top .contactInside .contactMap .MapDescription .MapInside .mapAddress {
+            width: 100% !important;
+            margin-top: 15px !important;
+        }
+        .contact_us_Top .contactInside .contactMap .MapDescription .MapInside h2 {
+            font-size: 20px !important;
+            margin-bottom: 0 !important;
+        }
+        .contact_us_Top .contactInside .contactMap .MapDescription .MapInside {
+            padding: 10px 0px 0px 10px !important;
+        }
+        .contact_Section {
+            padding: 0px 0px 0px 0px !important;
+        }
+        .contactpaddingLeft {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .contact_Section .widthTwo {
+            padding: 0px 0px !important;
+        }
+        .contactpaddingRight {
+            padding-right: 0px;
+            padding-left: 0px !important;
+        }
+        .contact_listInside {
+            margin-bottom: 15px;
+        }
+        .contactListMargin {
+            margin-top: 0px !important;
+        }
+        .widthOne{
+            width: 100% !important;
+            
+        }
+        .widthTwo{
+            width: 100% !important;
+            
+        }
+        .widthThree{
+            width: 100% !important;
+        } 
+        .contact_listInside .overlayTxt h2 {
+            font-size: 22px;
+        }
+
+        .overlayContact {
+            height: 41.4%;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (min-width: 381px) and (max-width: 420px) {
+
+    }
+
+    @media only screen and (min-width: 321px) and (max-width: 380px) {
+    
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 640px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 992px) {}
+
+    @media only screen and (min-width: 480px) and (max-width: 768px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {}
+
+    @media only screen and (max-width: 991px) and (orientation:landscape) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1400px) {}
+
+    @media only screen and (min-width: 991px) and (max-width: 1400px) {}
+
+    @media only screen and (max-height: 768px) {}
+
+    @media only screen and (min-height: 768px) {}
+
+    @media (min-width: 1000px) {}
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        
+    }
+    @media only screen and (min-width: 1200px) and (max-width: 1366px) { 
+        // .contact_us_Top .contactInside .contactMap .MapDescription {
+        //     background-image: linear-gradient(135deg, rgba(28, 112, 178, 0.7) 33%, rgba(255, 255, 255, 0) 33%) !important;
+        // }
+        .contact_Section .widthTwo {
+            width: 27.8% !important;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+        // .contact_us_Top .contactInside .contactMap .MapDescription {
+        //     background-image: linear-gradient(135deg, rgba(28, 112, 178, 0.7) 37%, rgba(255, 255, 255, 0) 37%) !important;
+        // }
+        .contact_Section .widthTwo {
+            width: 28% !important;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        // .contact_us_Top .contactInside .contactMap .MapDescription {
+        //     background-image: linear-gradient(135deg, rgba(28, 112, 178, 0.7) 44%, rgba(255, 255, 255, 0) 25%) !important;
+        // }
+        .contact_us_Top .contactInside .contactMap .MapDescription .MapInside .mapAddress {
+            width: 36% !important;
+        }
+        .contact_Section .widthTwo {
+            width: 28% !important;
+            padding: 0px 12px !important;
+        }
+/*contact css start */
+       
+/*contact css end */
+    }
+
+    @media only screen and (min-width: 1080px) and (max-width: 1280px) {
+        .overlayContact .text {
+            font-size: 24px;
+        }
+
+        .overlayContact .textDetails p {
+            font-size: 14px;
+        }
+
+        .contactImage img {
+            width: 70%;
+        }
+
+        .overlayContact .contactDetailsMain .contactDetails {
+            padding-left: 0px;
+        }
+
+        .overlayContact .contactDetailsMain .contactDetails h4 {
+            font-size: 18px;
+        }
+
+        .contactDetailsInner img {
+            width: 15%;
+        }
+
+        .overlayContact .contactDetailsMain .contactDetails .contactDetailsInner p {
+            font-size: 14px;
+        }
+
+        .overlayContact .contactDetailsMain .aboutTextMain p {
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .overlayContact {
+            width: 100%;
+            height: 68.7%;
+        }
+
+        .overlayContact .text {
+            font-size: 24px;
+        }
+
+        .overlayContact .textDetails p {
+            padding: 10px 0px;
+            font-size: 14px;
+        }
+
+        .overlayContact .contactDetailsMain {
+            display: block;
+        }
+
+        .contactImage img {
+            width: 30%;
+        }
+
+        .overlayContact .contactDetailsMain .contactDetails {
+            padding-left: 0px;
+            padding-top: 10px;
+        }
+
+        .overlayContact .contactDetailsMain .contactDetails h4 {
+            font-size: 14px;
+        }
+
+        .overlayContact .contactDetailsMain .contactDetails .contactDetailsInner {
+            padding-top: 15px;
+        }
+
+        .overlayContact .contactDetailsMain .contactDetails .contactDetailsInner p {
+            font-size: 14px;
+        }
+
+        .overlayContact .contactDetailsMain .aboutTextMain {
+            position: inherit;
+        }
+
+        .overlayContact .contactDetailsMain .aboutTextMain p {
+            padding-top: 15px;
+            font-size: 14px;
+        }
+    }
